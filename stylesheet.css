@@ -21,6 +21,7 @@ a {
   padding: 180px 0 100px 0;
   background-image: url(mtop.png);
   background-size: cover;
+  background-position: center;
   color: white;
   text-align: center;
 }

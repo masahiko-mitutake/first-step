@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+.clear {
+  clear: left;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  color: white;
+  height: 65px;
+  width: 100%;
+  background-color: #008080;
+  opacity:0.7;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.titleP {
+  color: white;
+  float: left;
+}
+
+.titleP:hover{
+  border: 2px dotted white;
+}
+
+.wholeWrapper{
+  height: auto;
+  background-color: #e0ffff;
+  text-align: center;
+}
+
+.main {
+  height: 100%;
+  padding: 65px 0;
+}
+
+h1 {
+  color: green;
+}
+
+.Btn {
+  padding: 8px 24px;
+  color: white;
+  opacity: 0.8;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+}
+
+.Btn:hover {
+  opacity: 1;
+}
+
+.Btn:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.startButton{
+  font-weight: bold;
+  background-color: #239b76;
+  box-shadow: 0px 7px #1a7940;
+}
+
+.forAdmin {
+  height: 200px;
+  /*
+  float:left;
+  text-align: left;
+  */
+  padding: : 50px auto;
+}
+
+.forAdmin p{
+  margin: 5px;
+  /*
+  display: inline-block;
+  */
+}
+
+.toAdminPage, .returnTop {
+  color: #808080;
+  font-weight: bold;
+  background-color: #d3d3d3;
+  box-shadow: 0px 7px #808080;
+  text-align: center;
+}
+
+.timeRecord {
+  float: right;
+  color: white;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.inputs {
+  margin-right: 30px;
+  float: left;
+  text-align: left;
+}
+
+.determine {
+  font-weight: bold;
+  background-color: #239b76;
+  box-shadow: 0px 7px #1a7940;
+  border: none;
+}
+
+.submit, .fixdata, .returnTop{
+  color: gray;
+  font-size: 100%;
+  font-weight: bold;
+  margin: 15px;
+  box-shadow: 0px 7px #808080;
+}
